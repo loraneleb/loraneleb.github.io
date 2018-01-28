@@ -5,14 +5,76 @@ html, body {
     font-family: Verdana;
 }
 
-div {
-    text-align: center;
-    height: 100vh;
-    line-height: 100vh;
-    white-space: nowrap;
-    font-size: 10vh;
+header {
+    display: inline-flex;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 
-p {
+header div, header ul{
+    font-size: 1.5em;
+    padding-top: 10vh;
+    transform: translateY(-50%);
+    color: red;
+}
+
+#home {
+    margin-top: 10vh;
+    min-height: 90vh;
+    display: inline-flex;
+}
+
+#nom {
+    width: 50vh;
+}
+#presentation {
+    width: 50vh;
+}
+
+#aboutme {
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+
+#projects {
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+
+#contact {
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
     margin: 0;
+    position: absolute;
+    right: 0;
+}
+
+li {
+    float: right;
+    padding-right: 5vw; 
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+a:hover {
+    color: #36BCFE;
+}
+
+@media (max-width 768px) {
+    header {
+        height: 10vh;
+    }
 }
