@@ -1,41 +1,58 @@
-<html>
-    <head>
-        <title>Lorane Lebrun</title>
-        <link rel="stylesheet" href="index-style.css">
-        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <header>
-                <div>Site en travaux</div>
-                <ul id="menu">                
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="projects.html">Projets</a></li>
-                    <li><a href="aboutme.html">Moi</a></li>
-                    <li><a href="index.html">Accueil</a></li>
-                </ul>
-        </header>
-        <div id=corps>
-            <div id=projects>
-                <h2>Mes Projets</h2>
-                <h4>RancorOfTheTitan</h4>
-                    <p>Jeu développé sur Unity3D en équipe de 4 à l’UQAC dans le cadre du cours 8INF955 avec M. Bruno Bouchard.</p>
-                    <p>Dans ce jeu le joueur n’agit pas directement sur le personnage mais sur son environnement. En effet le personnage est contrôlé par une IA simple donc le but est d’atteindre la fin du niveau. Sur son chemin se trouve plusieurs obstacles chargés de lui bloquer la route. Le rôle du joueur est d’utiliser ses pouvoirs correctement sur les pièges afin de les désamorcés avant le passage du personnage. </p>
-                    <p>J’ai été responsable de la dynamique des pouvoirs et des pièges ainsi que du level design. L’équipe de comprenant aucun designer nous nous somme réparties les tâches dans ce domaine, j’ai été chargée de l’animation du personnage.</p> 
-                <h4>Raven</h4>
-                    <p>Modification d’un jeu de tir entre agent-pnj tiré du livre Programming Game AI by Example de Mat Buckland.</p>
-                    <p>Ce travail a été effectué en équipe de 6 à l'UQAC dans le cadre du cours 8IAR125 avec M. Abdenour Bouzouane.</p>
-                    <p>Dans ce projet j’ai participé à la mise en place d’un réseau de neurones permettant d’apprendre à tirer à un agent-pnj à partir de données enregistrées par un joueur. J’ai aussi complexifié la logique floue pour le choix d’une arme par un argent-pnj et ai fait toutes les modifications nécessaires pour ajouter une nouvelle arme possible (à savoir un lance grenades).</p>
-                <h4>Trump Arena</h4>
-                    <p>Jeu développé sur Unity3D en équipe de 6 lors de la WonderJam UQAC Automne 2017.</p>
-                    <p>Il s’agit d’un tactical game au tour par tour.</p>
-                    <p>Cela a été ma première expérience de Jam, ainsi que le premier jeu dont j’ai participé à la création de la conception au développement.</p>
-                    <p>J’ai participé à la conception du jeu et à la mise en place des animations.</p>
-                <h4>Plombier maboule</h4>
-                    <p>Mini-Jeu développé sur Unity3D, en binôme, à Polytech Marseille dans le cadre du projet semestriel avec M. Sébastien Mavromatis.
-                    Le but du projet était de créer un jeu utilisant les détecteurs de mouvements Polhemus Patriot.</p>
-                    <p>Sur ce projet je me suis occupée de l’implémentation des mouvements, des feedback sonores et de la création des modèles 3D.</p>
-            </div>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="bootstrap/docs/favicon.ico">
+
+    <title>Lorane Lebrun</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="index_css.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="index.html">Accueil</a></li>
+            <li role="presentation" class="active"><a href="projects.html">Mes projets</a></li>
+            <li role="presentation"><a href="about.html">À propos de moi</a></li>
+            <li role="presentation"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Lorane Lebrun</h3>
+      </div>
+    </div> <!-- /container -->
+
+    <div class="container">
+        <h2>Mes Projets</h2>
+        <h4>RancorOfTheTitan</h4>
+        <p>Jeu développé sur Unity3D en équipe de 4 à l’UQAC dans le cadre du cours 8INF955 avec M. Bruno Bouchard.</p>
+        <p>Dans ce jeu le joueur n’agit pas directement sur le personnage mais sur son environnement. En effet le personnage est contrôlé par une IA simple donc le but est d’atteindre la fin du niveau. Sur son chemin se trouve plusieurs obstacles chargés de lui bloquer la route. Le rôle du joueur est d’utiliser ses pouvoirs correctement sur les pièges afin de les désamorcés avant le passage du personnage. </p>
+        <p>J’ai été responsable de la dynamique des pouvoirs et des pièges ainsi que du level design. L’équipe de comprenant aucun designer nous nous somme réparties les tâches dans ce domaine, j’ai été chargée de l’animation du personnage.</p>
+        <h4>Raven</h4>
+        <p>Modification d’un jeu de tir entre agent-pnj tiré du livre Programming Game AI by Example de Mat Buckland.</p>
+        <p>Ce travail a été effectué en équipe de 6 à l'UQAC dans le cadre du cours 8IAR125 avec M. Abdenour Bouzouane.</p>
+        <p>Dans ce projet j’ai participé à la mise en place d’un réseau de neurones permettant d’apprendre à tirer à un agent-pnj à partir de données enregistrées par un joueur. J’ai aussi complexifié la logique floue pour le choix d’une arme par un argent-pnj et ai fait toutes les modifications nécessaires pour ajouter une nouvelle arme possible (à savoir un lance grenades).</p>
+        <h4>Trump Arena</h4>
+        <p>Jeu développé sur Unity3D en équipe de 6 lors de la WonderJam UQAC Automne 2017.</p>
+        <p>Il s’agit d’un tactical game au tour par tour.</p>
+        <p>Cela a été ma première expérience de Jam, ainsi que le premier jeu dont j’ai participé à la création de la conception au développement.</p>
+        <p>J’ai participé à la conception du jeu et à la mise en place des animations.</p>
+        <h4>Plombier maboule</h4>
+        <p>Mini-Jeu développé sur Unity3D, en binôme, à Polytech Marseille dans le cadre du projet semestriel avec M. Sébastien Mavromatis.
+        Le but du projet était de créer un jeu utilisant les détecteurs de mouvements Polhemus Patriot.</p>
+        <p>Sur ce projet je me suis occupée de l’implémentation des mouvements, des feedback sonores et de la création des modèles 3D.</p> 
+    </div> <!-- /container -->
+  </body>
 </html>
