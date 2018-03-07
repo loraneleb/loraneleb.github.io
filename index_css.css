@@ -30,6 +30,7 @@ body {
 #nom {
   font-size: xx-large;
   margin-top: 50px;
+  color: #337ab7;
 }
 
 #presentation {
@@ -42,6 +43,18 @@ body {
   font-size: large;
   margin-top: 50px;
 }
+
+#aboutme h4 {
+  font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#aboutme .row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
