@@ -3088,6 +3088,7 @@
 
 			#banner {
 				height: 18em;
+				background-image: url("../../images/banner_with_text_mobile.jpg");
 			}
 
 		/* Wrapper */
@@ -3154,6 +3155,7 @@
 
 			#banner {
 				height: 20em;
+				background-image: url("../../images/banner_with_text_mobile.jpg");
 			}
 
 				#banner header {
