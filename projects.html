@@ -1,146 +1,155 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lorane Lebrun</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page-wrapper">
 
-  <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="bootstrap/docs/favicon.ico">
+			<!-- Header -->
+				<div id="header">
 
-    <title>Lorane Lebrun</title>
+					<!-- Logo -->
+						<h1><a href="index.html" id="logo">Lorane Lebrun</a></h1>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom styles for this page -->
-    <link href="index_css.css" rel="stylesheet">
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Accueil</a></li>
+								<li class="current"><a href="projects.html">Portfolio</a></li>
+								<li><a href="aboutme.html">À propos de moi</a></li>
+							</ul>
+						</nav>
 
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-  </head>
+				</div>
 
-  <body>
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="index.html">Accueil</a></li>
-            <li role="presentation" class="active"><a href="projects.html">Mes projets</a></li>
-            <li role="presentation"><a href="about.html">À propos de moi</a></li>
-            <li role="presentation"><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Lorane Lebrun</h3>
-      </div>
-    </div> <!-- /container -->
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<h2>Mes Projets</h2>
 
-    <div class="container">
-        <div class="row">
-            <h2 id="nom">Mes Projets</h2>
-        </div>
-        <div class="row">
-            <div id="aboutme">
-                <div class="row">
-                    <h4>RancorOfTheTitan</h4>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 text-center">
-                        <img src="images/RancorOfTheTitan_Screen.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Moteur de Jeu: Unity3D</p>
-                        <p>Dates: Sep. 2017 - Déc. 2017</p>
-                    </div>
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Equipe: 4 personnes</p>
-                        <p>Context: Projet de cours</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 colPerso">
-                        <p>Résumé:  Dans ce jeu le joueur n’agit pas directement sur le personnage mais sur son environnement. En effet le personnage est contrôlé par une IA simple donc le but est d’atteindre la fin du niveau. Sur son chemin se trouve plusieurs obstacles chargés de lui bloquer la route. Le rôle du joueur est d’utiliser ses pouvoirs correctement sur les pièges afin de les désamorcés avant le passage du personnage. </p>
-                        <p>Mon travail:  J’ai été responsable de la dynamique des pouvoirs et des pièges ainsi que du level design. L’équipe de comprenant aucun designer nous nous somme réparties les tâches dans ce domaine, j’ai été chargée de l’animation du personnage.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <h4>Raven</h4>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 text-center">
-                        <img src="images/Raven_Screen.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Moteur de Jeu: Aucun</p>
-                        <p>Dates: Sep. 2017 - Déc. 2017</p>
-                    </div>
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Equipe: 6 personnes</p>
-                        <p>Context: Projet de cours</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 colPerso">
-                        <p>Résumé:  Modification d’un jeu de tir entre agent-pnj tiré du livre Programming Game AI by Example de Mat Buckland.</p>
-                        <p>Mon travail:  Dans ce projet j’ai participé à la mise en place d’un réseau de neurones permettant d’apprendre à tirer à un agent-pnj à partir de données enregistrées par un joueur. J’ai aussi complexifié la logique floue pour le choix d’une arme par un argent-pnj et ai fait toutes les modifications nécessaires pour ajouter une nouvelle arme possible (à savoir un lance grenades).</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <h4>Trump Arena</h4>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 text-center">
-                        <img src="images/TArena-main.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Moteur de Jeu: Unity3D</p>
-                        <p>Dates: 6-8 Oct. 2017</p>
-                    </div>
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Equipe: 6 personnes</p>
-                        <p>Context: Game Jam</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 colPerso">
-                        <p>Résumé:  Il s’agit d’un tactical game au tour par tour. Ce fut la première expérence de création de jeu en équipe pour tous les membres de l'équipe.</p>
-                        <p>Mon travail:  J’ai participé à la conception du jeu et à la mise en place des animations.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <h4>Plombier maboule</h4>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 text-center">
-                        <img src="images/plombierMaboule_Screen.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Moteur de Jeu: Unity3D</p>
-                        <p>Dates: Fév. 2017 - Mai 2017</p>
-                    </div>
-                    <div class="col-lg-offset-1 col-lg-5 colPerso">
-                        <p>Equipe: 2 personnes</p>
-                        <p>Context: Projet de cours</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-1 col-lg-11 colPerso">
-                        <p>Résumé:  Le but du projet était de créer un jeu utilisant les détecteurs de mouvements Polhemus Patriot. Le but du jeu est de faire arriver l'anneau à l'autre bout du tuyau sans toucher les bords.</p>
-                        <p>Mon travail:  Sur ce projet je me suis occupée de l’implémentation des mouvements, des feedback sonores et de la création des modèles 3D.</p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- /container -->
-  </body>
+
+						<div class="row">
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/mystere.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>Ave Mortem</h3>
+										<p>Jeu en cours de développement.</p>
+									</div>
+								</div>
+							</section>
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic5.png" alt="" /></a>
+									<div class="inner">
+										<h3>The Queen's Order</h3>
+										<p>Jeu en phase de polish.</p>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="row">
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic1.png" alt="" /></a>
+									<div class="inner">
+										<h3>Rancor of the Titan</h3>
+										<p>Jeu side-scroller avec action du joueur sur l'environnement.</p>
+									</div>
+								</div>
+							</section>
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic2.png" alt="" /></a>
+									<div class="inner">
+										<h3>Raven</h3>
+										<p>Modification d’un jeu de tir entre agent-pnj tiré du livre Programming Game AI by Example de Mat Buckland.</p>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="row">
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic3.png" alt="" /></a>
+									<div class="inner">
+										<h3>Trump Arena</h3>
+										<p>Tactical game au tour par tour. Réalisé en Game Jam</p>
+									</div>
+								</div>
+							</section>
+							<section class="6u 12u(narrower)">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/pic4.png" alt="" /></a>
+									<div class="inner">
+										<h3>Plombier Maboule</h3>
+										<p>Jeu utilisant les détecteurs de mouvements Polhemus Patriot.</p>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<h3>Me contacter</h3>
+						<div class="row">
+							<div class="8u 12u(narrower)">
+								<ul class="labeled-icons">
+									<li><h3></h3></li>
+									<li>
+										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+										+33 6 68 50 35 63
+									</li>
+									<li>
+										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+										lorane.lebrun@gmail.com
+									</li>
+								</ul>
+							</div>
+							<div class="4u 12u(narrower)">
+								<ul class="icons">
+									<li><a href="https://www.facebook.com/lorane.lebrun" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.linkedin.com/in/loranelebrun/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/loraneleb" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
